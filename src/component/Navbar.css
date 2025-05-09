@@ -1,0 +1,75 @@
+/* NavBar.css */
+.navbar {
+    background-color: transparent;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem;
+    position: absolute;
+    top: 0;
+    width: 100%;
+    z-index: 1000;
+    color: white;
+  }
+  
+  .logo {
+    display: flex;
+    align-items: center;
+  }
+  
+  .logo img {
+    height: 80px;
+    margin-right: 10px;
+  }
+  
+  .brand-text {
+    font-size: 1rem;
+    line-height: 1.2;
+  }
+  
+  .menu-icon {
+    display: flex;
+    flex-direction: column;
+    cursor: pointer;
+    gap: 5px;
+    position: fixed;
+    top: 20px;
+    right: 20px;
+    background: #0b1320;
+    border-radius: 50%;
+    padding: 10px;
+    z-index: 1001;
+  }
+  
+  .bar {
+    width: 25px;
+    height: 3px;
+    background-color: white;
+  }
+  
+  .nav-links {
+    background-color: rgba(0, 0, 0, 0.9);
+    display: none;
+    flex-direction: column;
+    position: fixed;
+    top: 0;
+    right: 0;
+    height: 100vh;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    z-index: 999;
+    transition: all 0.3s ease;
+  }
+  
+  .nav-links.open {
+    display: flex;
+  }
+  
+  .nav-links a {
+    color: white;
+    font-size: 1.5rem;
+    margin: 1rem 0;
+    text-decoration: none;
+  }
+  
