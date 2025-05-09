@@ -2,9 +2,9 @@
     position: relative;
     height: 100%;
     overflow: hidden;
-    color: white; /* Changed to white for readability on video */
+    color: white;
     font-family: sans-serif;
-  
+    position: relative;
   }
   
   .background-video {
@@ -13,7 +13,7 @@
     left: 0;
     width: 100%;
     height: 100vh;
-    object-fit: cover; /* Makes video cover the screen nicely */
+    object-fit: cover; 
     z-index: -1;
   }
   .background-image {
@@ -26,12 +26,13 @@
     z-index: -1;
   }
   .content1 {
-    position: relative;
+    position: absolute;
     z-index: 1;
     text-align: center;
     width: 100%;
     height: 100vh;
     color: white;
+    position: relative;
   }
   .content1 h1 {
     font-size: 1rem;
@@ -39,7 +40,7 @@
     background: linear-gradient(to right, #fcf30f, #fef98c, #fffeec);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
-    color: #FCF31B; /* fallback color */
+    color: #FCF31B;
   }
   
   
@@ -70,7 +71,7 @@
     background: linear-gradient(to right, #fcf30f, #fef98c, #fffeec);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
-    color: #FCF31B; /* fallback color */
+    color: #FCF31B; 
  
   }
   .overlay p{
@@ -82,10 +83,9 @@
   .content2 {
     z-index: 1;
     
-   /* Centers content vertically */
     width: 100%;
     height: 100vh;
-    color: black;
+    color: rgb(255, 255, 255);
     margin-top: 100px;;
     text-align: left;
     padding: 24px;
@@ -97,7 +97,7 @@
     background: linear-gradient(to right, #fcf30f, #fef98c, #fffeec);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
-    color: #FCF31B; /* fallback color */
+    color: #FCF31B; 
  
     
 
@@ -136,10 +136,9 @@
   .content3 {
     z-index: 1;
     
-   /* Centers content vertically */
     width: 100%;
     height: 100vh;
-    color: black;
+    color: rgb(255, 255, 255);
     margin-top: 100px;;
     text-align: left;
     padding: 24px;
@@ -150,7 +149,7 @@
     background: linear-gradient(to right, #fcf30f, #fef98c, #fffeec);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
-    color: #FCF31B; /* fallback color */
+    color: #FCF31B;
  
     padding-left: 16px;
   } 
@@ -178,10 +177,9 @@
   .content4 {
     z-index: 1;
     
-   /* Centers content vertically */
     width: 100%;
     height: 100vh;
-    color: black;
+    color: rgb(255, 255, 255);
     text-align: left;
     padding-left: 20px;
     

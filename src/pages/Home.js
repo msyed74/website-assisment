@@ -6,6 +6,9 @@ import { PhoneCall } from 'lucide-react';
 
 
 const Home = () => {
+   
+  
+
   useEffect(() => {
     AOS.init({
       duration: 1000,
@@ -14,9 +17,12 @@ const Home = () => {
       onscroll: true,
     });
     AOS.refresh();
+    
   }, []);
+  
   return (
     <main className="home">
+      <div className="contentcover">
       <div className="content1" data-aos="fade-up">
         <video className="background-video" autoPlay loop muted playsInline>
           <source
@@ -70,6 +76,7 @@ const Home = () => {
           We Provide All Kinds of Prefabricated Building Soutions And Portable
           Cabins At Your Service Within No Time.
         </p>
+      </div>
       </div>
       <div className="content5" data-aos="zoom-out">
         <h1>
